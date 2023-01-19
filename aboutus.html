@@ -46,11 +46,10 @@
                       <a class="nav-link text-warning" href="career.html">Career</a>
                     </li>
                   </ul>
-                <button class="buttonyellow0 text-warning ">Connect</button> 
+                <a class="btn buttonyellow0 text-warning" href="connect.html">Connect</a> 
             </div>
         </div>
       </nav>
-    
     </header>
     <section>
         <div class="container section1Contain">
@@ -553,36 +552,36 @@
       </div>
         
         <div class="first_rowP2">
-        <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <div class="lorem_70">
-            <div class="lorem70_letter "><img src="assets/images/2.images/letter.png" alt="70+" class="img-fluid letter"></div>
-            <div class="lorem70"><h2 class="lorem70h2">70+</h2></div>
-            <div class="lorem_ipsum_h4"><h4 class="lorem_ipsum_h40">Lorem ipsum </h4></div>
-          </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="lorem_70">
-              <div class="lorem70_letter "><img src="assets/images/2.images/girl0.png" alt="girl0" class="img-fluid letter"></div>
-              <div class="lorem70"><h2 class="lorem70h2">70+</h2></div>
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="lorem_70" data-ani="bounceOut">
+              <div class="lorem70_letter "><img src="assets/images/2.images/letter.png" alt="70+" class="img-fluid letter"></div>
+              <div class="lorem70"><h2 class="lorem70h2">70</h2><span class="l70plus">+</span></div>
               <div class="lorem_ipsum_h4"><h4 class="lorem_ipsum_h40">Lorem ipsum </h4></div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="lorem_70">
+                <div class="lorem70_letter "><img src="assets/images/2.images/girl0.png" alt="girl0" class="img-fluid letter"></div>
+                <div class="lorem70"><h2 class="lorem70h2">70</h2><span class="l70plus">+</span></div>
+                <div class="lorem_ipsum_h4"><h4 class="lorem_ipsum_h40">Lorem ipsum </h4></div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="lorem_70">
+                <div class="lorem70_letter "><img src="assets/images/2.images/Group_boys.png" alt="Group_boys" class="img-fluid letter"></div>
+                <div class="lorem70"><h2 class="lorem70h2">70</h2><span class="l70plus">+</span></div>
+                <div class="lorem_ipsum_h4"><h4 class="lorem_ipsum_h40">Lorem ipsum </h4></div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="lorem_70">
+                <div class="lorem70_letter "><img src="assets/images/2.images/percentage.png" alt="percentage" class="img-fluid letter"></div>
+                <div class="lorem70"><h2 class="lorem70h2">70</h2> <span class="l70plus">+</span></div>
+                <div class="lorem_ipsum_h4"><h4 class="lorem_ipsum_h40">Lorem ipsum </h4></div>
+            </div>
+            </div>
           </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="lorem_70">
-              <div class="lorem70_letter "><img src="assets/images/2.images/Group_boys.png" alt="Group_boys" class="img-fluid letter"></div>
-              <div class="lorem70"><h2 class="lorem70h2">70+</h2></div>
-              <div class="lorem_ipsum_h4"><h4 class="lorem_ipsum_h40">Lorem ipsum </h4></div>
-          </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="lorem_70">
-              <div class="lorem70_letter "><img src="assets/images/2.images/percentage.png" alt="percentage" class="img-fluid letter"></div>
-              <div class="lorem70"><h2 class="lorem70h2">70+</h2></div>
-              <div class="lorem_ipsum_h4"><h4 class="lorem_ipsum_h40">Lorem ipsum </h4></div>
-          </div>
-          </div>
-        </div>
       </div>
       <div class="d-flex align-items-center">
         <div><img src="assets/images/2.images/testimonal_img0.png" alt="testimonal_img0" class="img-fluid testimonalside0"></div>
@@ -714,6 +713,14 @@
             prevEl: ".swiper-button-prev",
           },
         });
+      </script>
+      <script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
+      <script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
+      <script>
+         jQuery('.lorem70h2').counterUp({
+                  delay: 10,
+                  time: 2000
+              });
       </script>
   </body>
 </html>

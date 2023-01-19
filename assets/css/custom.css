@@ -104,9 +104,6 @@
 .readmore0P1{
     position: relative;
 }
-
-
-
 .ser1{
     font-size: 110px;
     width: max-content;
@@ -233,6 +230,14 @@
 .lorem70h2{
     color: #FFB533;
     font-size: 120px;
+}
+.lorem70{
+    display: flex;
+    margin-top: 50px;
+}
+.l70plus{
+    color: #FFB533;
+    font-size: 100px;
 }
 .lorem_ipsum_h40{
     color: #FFB533;

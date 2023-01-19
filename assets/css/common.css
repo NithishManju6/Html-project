@@ -47,7 +47,7 @@ body{
       padding: 14px 30px 15px 30px;
       background-color: #000;
       font-size: 18px;
-     
+      border-radius: 0;
 }
 .navbar-nav .line{
      padding: 14px 10px 14px 10px;
@@ -124,6 +124,10 @@ body{
     color: #EAEAEA;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 15px;
+   
+    
 }
 .h4india{
      margin-left: 32px;
@@ -136,4 +140,6 @@ body{
     margin-right: 22px;
     padding-bottom: 35px; 
 } 
+
+
 /*-----------------------------------------------footer css ends-------------------------------------------------------*/

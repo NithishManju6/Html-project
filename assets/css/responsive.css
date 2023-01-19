@@ -56,7 +56,6 @@
     }
     .linedash_small{
         display: block;
-        
     }
     .cargomatic{
         margin: 8px 0 8px;
@@ -200,6 +199,19 @@
         width: 395px;
         height: 265px;
     }
+    .formValidation .form-group .textareaheight{
+        height: auto;
+        width: 350px;
+     }
+     .formValidation{
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto; 
+        outline: none;
+    }
+    .nameP8{
+        width: max-content;
+    }
 }
 
 
@@ -318,6 +330,14 @@
         top: -8px;
         right: 33px;
     }
+    .formValidation{
+        width: 660px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .formValidation .form-group .mobile_number {
+        width: 262px;
+    }
 } 
 
 
@@ -366,6 +386,9 @@
          left: 88%;
         transform: translateX(-30%)translateY(94%); 
         padding: 20px 25px 20px 25px ; 
+    }
+    .navmargins {
+        padding-right: 15px;
     }
     
 }
